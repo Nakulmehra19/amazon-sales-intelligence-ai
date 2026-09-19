@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution / build
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary report/chart generation scripts (removed after use)
+build_docx_report.py
+build_report_with_images.py
+generate_report_charts.py
+_ml_audit.py
+report_images/
